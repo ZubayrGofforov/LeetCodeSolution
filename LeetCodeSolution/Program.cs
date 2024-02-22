@@ -1,4 +1,5 @@
-﻿using LeetCodeSolution.src._1TwoSum;
+﻿using LeetCodeSolution.src;
+using LeetCodeSolution.src._1TwoSum;
 
 class Program
 {
@@ -11,6 +12,17 @@ class Program
         int[] result = Solution.TwoSum(nums, target);
 
         Console.WriteLine($"Indices: [{result[0]}, {result[1]}]");
+        #endregion
+
+        #region 9. Palindrome Number
+        bool ispalindrome = _9PalindromeNumber.IsPalindrome(121);
+       
+        Console.WriteLine("9. Palindrome Number: " + ispalindrome);
+        #endregion
+
+        #region 13. Roman to Integer
+        int roman = _13RomantoInteger.RomanToInt("III");
+        Console.WriteLine("13.Roman to Integer: " + roman);
         #endregion
     }
 }
