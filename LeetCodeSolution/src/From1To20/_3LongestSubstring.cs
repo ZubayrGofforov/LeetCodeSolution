@@ -1,6 +1,6 @@
-﻿namespace LeetCodeSolution.src._3LongestSubstring
+﻿namespace LeetCodeSolution.src.From1To20
 {
-    public class Solution
+    public class _3LongestSubstring
     {
         public static int LengthOfLongestSubstring(string s)
         {

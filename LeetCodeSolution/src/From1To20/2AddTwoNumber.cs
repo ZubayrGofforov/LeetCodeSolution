@@ -1,6 +1,6 @@
-﻿namespace LeetCodeSolution.src._2AddTwoNumbers
+﻿namespace LeetCodeSolution.src.From1To20
 {
-    public static class Solution
+    public static class _2AddTwoNumber
     {
         public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
@@ -10,8 +10,8 @@
 
             while (l1 != null || l2 != null)
             {
-                int x = (l1 != null) ? l1.val : 0;
-                int y = (l2 != null) ? l2.val : 0;
+                int x = l1 != null ? l1.val : 0;
+                int y = l2 != null ? l2.val : 0;
                 int sum = x + y + carry;
                 carry = sum / 10;
 

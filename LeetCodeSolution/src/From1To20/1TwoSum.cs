@@ -1,5 +1,5 @@
-﻿namespace LeetCodeSolution.src._1TwoSum;
-public static class Solution
+﻿namespace LeetCodeSolution.src.From1To20;
+public static class _3_Solution
 {
     public static int[] TwoSum(int[] nums, int target)
     {

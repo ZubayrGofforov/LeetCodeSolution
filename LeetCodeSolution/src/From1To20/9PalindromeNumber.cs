@@ -1,4 +1,4 @@
-﻿namespace LeetCodeSolution.src
+﻿namespace LeetCodeSolution.src.From1To20
 {
     public static class _9PalindromeNumber
     {
