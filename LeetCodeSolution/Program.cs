@@ -24,5 +24,14 @@ class Program
         int roman = _13RomantoInteger.RomanToInt("III");
         Console.WriteLine("13.Roman to Integer: " + roman);
         #endregion
+
+        #region 14. Longest Common Prefix
+        string[] strs1 = { "flower", "flow", "flight" };
+        string[] strs2 = { "dog", "racecar", "car" };
+        string longest = _14Longest.LongestCommonPrefix(strs1);
+        string longest2 = _14Longest.LongestCommonPrefix(strs2);
+        Console.WriteLine("14. " + longest);
+        Console.WriteLine("14. " + longest2);
+        #endregion
     }
 }
